@@ -162,34 +162,3 @@ figcaption {
 .red { color: red; }
 .orange { color: orange; }
 .customgreen { color: #4CAF50; }
-
-
-div#title-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  gap: 0rem;
-}
-
-div#title-container img{
-  width: 300px;
-  margin: 0px;
-  max-width: 60%;
-}
-div#title-container h1{
-  margin: 0px;
-  padding-inline: 0px;
-  min-width: 300px;
-}
-
-@media screen and (max-width: 600px) {
-  h1.title{
-    /* background-color: red; */
-    font-size: 2rem !important;
-  }
-  div#title-container img{
-  width: 100px !important;
-  }
-}
