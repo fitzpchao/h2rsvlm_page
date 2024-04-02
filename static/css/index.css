@@ -183,13 +183,25 @@ div#title-container h1{
   padding-inline: 0px;
   min-width: 300px;
 }
-
+/* div#results-container h2{
+  font-size: 1rem;
+  margin: 0px;
+  padding-inline: 0px;
+  min-width: 300px;
+} */
 @media screen and (max-width: 600px) {
   h1.title{
     /* background-color: red; */
     font-size: 2rem !important;
   }
   div#title-container img{
-    width: 100px !important;
+  width: 100px !important;
   }
+  h2.subtitle {
+    font-size: 0.7rem !important;
+  }
+  figcaption {
+    font-size: 0.7rem !important;
+  }
+
 }
